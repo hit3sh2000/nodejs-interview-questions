@@ -88,8 +88,6 @@
 | 78. |[How to generate and verify checksum of the given string in Node.js](#q-how-to-generate-and-verify-checksum-of-the-given-string-in-node-js)|
 
 <br/>
-<div id='q-what-does-the-runtime-environment-mean-in-nodejs'>
-</div>
 ## 1Q. ***What does the runtime environment mean in Node.js?***
 The Node.js runtime is the software stack responsible for installing your web service\'s code and its dependencies and running your service.
 
@@ -105,8 +103,6 @@ The runtime environment is literally just the environment your application is ru
 </div>
 
 ## 2Q. ***What is Node.js?***
-<div id='q-what-is-nodejs'>
-</div>
 Node.js is an open-source server side runtime environment built on Chrome\'s V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.
 
 <div align="right">
@@ -123,8 +119,6 @@ Node.js runs in a single process and the application code runs in a single threa
 </div>
 
 ## 4Q. ***What are the data types in Node.js?***
-<div id='q-what-are-the-data-types-in-nodejs'>
-</div>
 *Primitive Types*
 
 * String
@@ -141,8 +135,6 @@ Node.js runs in a single process and the application code runs in a single threa
 </div>
 
 ## 5Q. ***How to create a simple server in Node.js that returns Hello World?***
-<div id='q-how-to-create-a-simple-server-in-nodejs-that-returns-hello-world'>
-</div>
 **Step 01**: Create a project directory
 
 ```bash
@@ -200,8 +192,6 @@ node app.js
 </div>
 
 ## 6Q. ***How do Node.js works?***
-<div id='q-how-do-nodejs-works'>
-</div>
 <p align="center">
   <img src="assets/event-loop.png" alt="Node Architecture" width="800px" />
 </p>
@@ -236,8 +226,6 @@ Node JS Platform does not follow Request/Response Multi-Threaded Stateless Model
 </div>
 
 ## 7Q. ***What is an error-first callback?***
-<div id='q-what-is-an-error-first-callback'>
-</div>
 The pattern used across all the asynchronous methods in Node.js is called *Error-first Callback*. Here is an example:
 
 ```javascript
@@ -258,8 +246,6 @@ In the preceding example, if any exception is thrown during the reading of the f
 </div>
 
 ## 8Q. ***What is callback hell in Node.js?***
-<div id='q-what-is-callback-hell-in-nodejs'>
-</div>
 `Callback hell` is a phenomenon that afflicts a JavaScript developer when he tries to execute multiple asynchronous operations one after the other.
 
 An asynchronous function is one where some external activity must complete before a result can be processed; it is “asynchronous” in the sense that there is an unpredictable amount of time before a result becomes available. Such functions require a callback function to handle errors and process the result.
@@ -402,8 +388,6 @@ addRandomNumber();
 </div>
 
 ## 9Q. ***What are Promises in Node.js?***
-<div id='q-what-are-promises-in-nodejs'>
-</div>
 It allows to associate handlers to an asynchronous action\'s eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of the final value, the asynchronous method returns a promise for the value at some point in the future.
 
 Promises in node.js promised to do some work and then had separate callbacks that would be executed for success and failure as well as handling timeouts. Another way to think of promises in node.js was that they were emitters that could emit only two events: success and error.The cool thing about promises is you can combine them into dependency chains (do Promise C only when Promise A and Promise B complete).
@@ -428,8 +412,6 @@ var myPromise = new Promise(function(resolve, reject){
 </div>
 
 ## 10Q. ***What tools can be used to assure consistent style?***
-<div id='q-what-tools-can-be-used-to-assure-consistent-style'>
-</div>
 * ESLint
 * Standard
 
@@ -438,8 +420,6 @@ var myPromise = new Promise(function(resolve, reject){
 </div>
 
 ## 11Q. ***When should you npm and when yarn?***
-<div id='q-when-should-you-npm-and-when-yarn'>
-</div>
 * **npm**  
 
 It is the default method for managing packages in the Node.js runtime environment. It relies upon a command line client and a database made up of public and premium packages known as the the npm registry. Users can access the registry via the client and browse the many packages available through the npm website. Both npm and its registry are managed by npm, Inc.
